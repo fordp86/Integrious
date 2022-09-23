@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_send_and_receive_payments",
+  "info": {
+    "singularName": "app-send-and-receive-payment",
+    "pluralName": "app-send-and-receive-payments",
+    "displayName": "App - Send & Receive Payment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "image2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "Send & Receive Payments",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Online payments for any business setup",
+      "required": true
+    },
+    "lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.list",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Get Started Now",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    }
+  }
+}
